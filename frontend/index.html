@@ -152,7 +152,7 @@
 </div>
 
 <script>
-const API = 'http://localhost:8087';
+const API = `${window.location.protocol}//${window.location.hostname}:8087`;
 let token = localStorage.getItem('jm_token');
 let role = localStorage.getItem('jm_role');
 let editingPostId = null;
